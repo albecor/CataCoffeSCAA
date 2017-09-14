@@ -1,0 +1,8 @@
+com.spring.coffee.configuration
+com.spring.coffee.controller
+com.spring.coffee.converter
+com.spring.coffee.dao
+com.spring.coffee.model
+com.spring.coffee.security
+com.spring.coffee.service
+com.spring.coffee.utilities

@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.3.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sample" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="72306c19-9dea-4a70-8105-5ea4858bf8ad">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="vv"/>
+	<subDataset name="Dataset1" uuid="e0e62b83-299d-400b-ab0f-c2271aacf47b">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="serie" class="java.lang.String">
+			<fieldDescription><![CDATA[serie]]></fieldDescription>
+		</field>
+		<field name="category" class="java.lang.String">
+			<fieldDescription><![CDATA[category]]></fieldDescription>
+		</field>
+		<field name="value" class="java.lang.Double">
+			<fieldDescription><![CDATA[value]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="spider" class="com.spring.coffee.utilities.SpiderChart">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="date" class="java.util.Date">
+		<fieldDescription><![CDATA[date]]></fieldDescription>
+	</field>
+	<field name="merma" class="java.lang.String">
+		<fieldDescription><![CDATA[merma]]></fieldDescription>
+	</field>
+	<field name="bodyNotes" class="java.lang.String">
+		<fieldDescription><![CDATA[bodyNotes]]></fieldDescription>
+	</field>
+	<field name="code" class="java.lang.String">
+		<fieldDescription><![CDATA[code]]></fieldDescription>
+	</field>
+	<field name="notes" class="java.lang.String">
+		<fieldDescription><![CDATA[notes]]></fieldDescription>
+	</field>
+	<field name="municipalityGrower" class="java.lang.String">
+		<fieldDescription><![CDATA[municipalityGrower]]></fieldDescription>
+	</field>
+	<field name="almondHealthy" class="java.lang.String">
+		<fieldDescription><![CDATA[almondHealthy]]></fieldDescription>
+	</field>
+	<field name="fr" class="java.lang.String">
+		<fieldDescription><![CDATA[fr]]></fieldDescription>
+	</field>
+	<field name="almondTotal" class="java.lang.String">
+		<fieldDescription><![CDATA[almondTotal]]></fieldDescription>
+	</field>
+	<field name="spidercharts" class="java.util.List">
+		<fieldDescription><![CDATA[spidercharts]]></fieldDescription>
+	</field>
+	<field name="pasillaGrams" class="java.lang.String">
+		<fieldDescription><![CDATA[pasillaGrams]]></fieldDescription>
+	</field>
+	<field name="score" class="java.lang.String">
+		<fieldDescription><![CDATA[score]]></fieldDescription>
+	</field>
+	<field name="variety" class="java.lang.String">
+		<fieldDescription><![CDATA[variety]]></fieldDescription>
+	</field>
+	<field name="brocaGrams" class="java.lang.String">
+		<fieldDescription><![CDATA[brocaGrams]]></fieldDescription>
+	</field>
+	<field name="humidity" class="java.lang.String">
+		<fieldDescription><![CDATA[humidity]]></fieldDescription>
+	</field>
+	<field name="veredaGrower" class="java.lang.String">
+		<fieldDescription><![CDATA[veredaGrower]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="notesPhysicalAnalysis" class="java.lang.String">
+		<fieldDescription><![CDATA[notesPhysicalAnalysis]]></fieldDescription>
+	</field>
+	<field name="departament" class="java.lang.String">
+		<fieldDescription><![CDATA[departament]]></fieldDescription>
+	</field>
+	<field name="height" class="java.lang.String">
+		<fieldDescription><![CDATA[height]]></fieldDescription>
+	</field>
+	<field name="fragranceNotes" class="java.lang.String">
+		<fieldDescription><![CDATA[fragranceNotes]]></fieldDescription>
+	</field>
+	<field name="ko" class="java.util.Collection">
+		<fieldDescription><![CDATA[ko]]></fieldDescription>
+	</field>
+	<field name="pasillaPercentage" class="java.lang.String">
+		<fieldDescription><![CDATA[pasillaPercentage]]></fieldDescription>
+	</field>
+	<field name="flavorNotes" class="java.lang.String">
+		<fieldDescription><![CDATA[flavorNotes]]></fieldDescription>
+	</field>
+	<field name="acidityNotes" class="java.lang.String">
+		<fieldDescription><![CDATA[acidityNotes]]></fieldDescription>
+	</field>
+	<field name="phone" class="java.lang.String">
+		<fieldDescription><![CDATA[phone]]></fieldDescription>
+	</field>
+	<field name="brocaPercentage" class="java.lang.String">
+		<fieldDescription><![CDATA[brocaPercentage]]></fieldDescription>
+	</field>
+	<field name="grower" class="java.lang.String">
+		<fieldDescription><![CDATA[grower]]></fieldDescription>
+	</field>
+	<field name="growerId" class="java.lang.String">
+		<fieldDescription><![CDATA[growerId]]></fieldDescription>
+	</field>
+	<field name="cabecera" class="java.awt.image.BufferedImage">
+		<fieldDescription><![CDATA[cabecera]]></fieldDescription>
+	</field>
+	<field name="bean" class="java.awt.image.BufferedImage">
+		<fieldDescription><![CDATA[bean]]></fieldDescription>
+	</field>
+	<field name="firma2" class="java.awt.image.BufferedImage">
+		<fieldDescription><![CDATA[firma2]]></fieldDescription>
+	</field>
+	<field name="firma1" class="java.awt.image.BufferedImage">
+		<fieldDescription><![CDATA[firma1]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="92" splitType="Stretch">
+			<image>
+				<reportElement x="4" y="-5" width="548" height="92" uuid="f7c08c01-f8fa-4982-9aef-474f50bbb807">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{cabecera}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="27" splitType="Stretch">
+			<frame>
+				<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="574" height="22" forecolor="#8CC63F" backcolor="#8CC63F" uuid="d99a30a0-49bc-4441-904e-4feabc5d6a38"/>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="183" y="1" width="198" height="22" forecolor="#FFFFFF" uuid="0d6e30ad-37eb-4db8-b207-ac50ff2426ae"/>
+					<textElement textAlignment="Center">
+						<font fontName="Arial Black" size="14" isBold="false"/>
+						<paragraph lineSpacing="Single"/>
+					</textElement>
+					<text><![CDATA[FICHA TÉCNICA]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="651" splitType="Stretch">
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="4" width="141" height="14" uuid="9dfa103e-1c8a-403d-a01f-4cd9afab532a"/>
+				<textElement>
+					<font fontName="Arial Black" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[CÓDIGO DE MUESTRA:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="174" y="4" width="101" height="14" uuid="55c658a4-315e-4187-a1cd-93e8299b9f53"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="135" y="33" width="162" height="14" uuid="269e7721-fea5-4256-ba4b-3b09d6063ea5"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grower}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="33" width="98" height="14" uuid="ccb69b1a-b0a7-4f6d-b860-d62703851c20"/>
+				<textElement>
+					<font fontName="Arial Black" size="9" isBold="false" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[CAFICULTOR:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="298" y="33" width="98" height="14" uuid="f48527ff-9da6-41f7-99ac-81118e883c49"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[C.C:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="397" y="33" width="150" height="14" uuid="0e11b6c3-7c47-47e1-bc78-3ec4fbda36a7"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{growerId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="135" y="53" width="162" height="14" uuid="f84933f5-e650-4853-9b06-89c61f7f66a3"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{departament}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="53" width="98" height="14" uuid="4f627aa4-b5c1-479c-bfc1-968d3a33a659"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[DEPARTAMENTO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="298" y="53" width="98" height="14" uuid="a39e2fde-94c1-4238-bb80-f635f6a62bec"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[MUNICIPIO:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="397" y="53" width="150" height="14" uuid="b09e5461-971d-4f72-88c3-888820d7163d"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{municipalityGrower}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="73" width="98" height="14" uuid="716850dd-af1d-431b-a2d2-e4cea62a5ec4"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[VEREDA/PREDIO:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="135" y="73" width="162" height="14" uuid="0f74ce8a-ce08-46f9-ae19-60da73af1821"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{veredaGrower}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="93" width="98" height="14" uuid="67180026-a3f9-44c7-bb0a-1f2bfae9bea7"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[VARIEDAD:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="298" y="93" width="98" height="14" uuid="beec5cc1-2c2f-481a-b97a-2b58cc0b4ef7"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ALTURA (M.S.N.M):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="298" y="73" width="98" height="14" uuid="78d5f548-15ed-485b-a503-0c481c3baeca"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[TELEFONO:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="135" y="93" width="162" height="14" uuid="8735dc16-c1f6-4c03-a9a0-5a5a8df5d974"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{variety}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="397" y="93" width="150" height="14" uuid="0c64d366-04c1-46d6-994e-dca0860af2a9"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{height}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="397" y="73" width="150" height="14" uuid="d0eb0d46-426b-48e0-b8a4-23b88931bf8d"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{phone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="4" width="110" height="14" uuid="7f5edc4b-3c6d-4970-8eb1-9452a0acbe0f"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="298" y="4" width="132" height="14" uuid="36af6aad-ef21-4930-99ed-2cb12bd71107"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[FECHA DE CATACIÓN:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="147" y="133" width="83" height="14" uuid="0784ed0e-08fe-4544-8c5b-4be9d0df73c8"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{humidity}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="133" width="114" height="14" uuid="8caa6a6e-1392-4227-bd79-4fc4665e417a"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[HUMEDAD (%):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="392" y="153" width="68" height="14" uuid="f1b43482-ecfc-4e85-a37f-215ff812942b"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[BROCA (g):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="460" y="153" width="87" height="14" uuid="9c955c52-b6b2-4423-8fe7-acd163091b16"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{brocaGrams}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="147" y="153" width="83" height="14" uuid="69fbe65c-9185-4e0c-bd5e-e18129a7cbd0"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{almondTotal}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="153" width="114" height="14" uuid="56020e28-5d0f-48f1-b5a6-aafd16210bc5"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ALMENDRA TOTAL (g):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="392" y="173" width="68" height="14" uuid="0f8834db-07cf-4601-a59f-0c266351a3ba"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[BROCA (%)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="460" y="173" width="87" height="14" uuid="b4533525-3b5a-40fd-94fc-91a39d1e64ed"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{brocaPercentage}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="173" width="114" height="14" uuid="496842a4-c601-4ff0-afde-0c66f21214c0"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ALMENDRA SANA (g):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="147" y="173" width="83" height="14" uuid="708dab80-4cdc-45fe-b0f6-59ccbfe0b3e3"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{almondHealthy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="230" y="133" width="67" height="14" uuid="29cf75cb-bc1f-4c7c-b5b0-32cbf0bbb394"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[F.R. (Kg):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="230" y="173" width="67" height="14" uuid="afd180cd-df0b-4746-b35a-6c25c707b67d"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[PASILLA (%):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="230" y="153" width="67" height="14" uuid="a70e65f1-9e8e-4890-a7ea-249ace74f6bc"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[PASILLA (g):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="297" y="133" width="95" height="14" uuid="b9a5e88c-74d8-4ceb-b07c-e0c1da4fee33"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="297" y="173" width="95" height="14" uuid="25f9ea3f-1db8-48b9-aae3-1ca3f67742ec"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pasillaPercentage}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="298" y="153" width="94" height="14" uuid="18fe993b-65f4-4195-b84c-3c223b349c79"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pasillaGrams}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="115" width="164" height="14" uuid="2fe07842-8e7a-4269-a261-c052e9cd87dc"/>
+				<textElement>
+					<font fontName="Arial Black" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ANÁLISIS FÍSICO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="392" y="133" width="68" height="14" uuid="a810b132-4025-4645-a012-db735e992bb8"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[MERMA (%):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="460" y="133" width="88" height="14" uuid="fbd9a38e-bcf4-4443-bb2c-2ccbb9b68dc4"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{merma}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="194" width="114" height="14" uuid="307568a5-4217-428b-ab07-b10a38689ebf"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[OBSERVACIONES:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="147" y="194" width="398" height="40" uuid="7c31fcd2-2cc7-4fa0-8765-48a3b6f74327"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{notesPhysicalAnalysis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="262" width="131" height="40" uuid="8a7d8245-b1d8-41ef-a925-922cb34a105e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fragranceNotes}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="31" y="262" width="100" height="14" uuid="1579aa53-10e1-45b9-8e76-e417284e3652"/>
+				<textElement>
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[FRAGANCIA/AROMA:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="131" y="308" width="131" height="40" uuid="941e59c8-d8c6-4c49-8757-af50a2db9c9d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{flavorNotes}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="308" width="98" height="14" uuid="fe8cb94b-c5fe-4850-b04d-35ff6ebe6ce3"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[SABOR:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="353" width="98" height="14" uuid="12d5ae81-dcdb-4213-8ca0-c5a95b5cf647"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ACIDEZ:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="131" y="353" width="131" height="40" uuid="ed36e214-4754-4e32-9f3d-2c1866806c35">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{acidityNotes}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="398" width="98" height="14" uuid="88363158-e8c1-49b7-be59-0afe124adeed"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[CUERPO:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="131" y="398" width="131" height="40" uuid="c5586ffe-294c-41c7-bbe3-8d7fab8ed649"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bodyNotes}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="244" width="164" height="14" uuid="7333b101-1e5f-4a7d-9125-7d32fc956459"/>
+				<textElement markup="styled">
+					<font fontName="Arial Black" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ANÁLISIS SENSORIAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="443" width="98" height="14" uuid="09f4b9ce-8caa-4555-93b8-1d02c4946790"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[PUNTAJE TOTAL:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="131" y="443" width="131" height="14" uuid="55f27f3a-d31d-490b-80c7-e356d83c622a"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{score}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="33" y="463" width="98" height="14" uuid="41a05f3d-5073-44b1-b125-64702745c693"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[OBSERVACIONES:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="33" y="477" width="228" height="63" uuid="f7e0084a-c640-4364-8d16-49beaf2815aa"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{notes}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="13" y="621" width="307" height="30" uuid="be1adf9d-d4ce-4a94-9038-8410892da8e4">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Nelson Gutiérrez Guzmán Ph.D. 
+Coordinador Centro Surcolombiano de Investigación en Café 
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="620" width="170" height="29" uuid="164f66fe-829e-401a-aada-8b617f3f8bcb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top" rotation="None">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Bertulfo Delgado Joven Ms.c.   Catador Certificado por la SCAA
+]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="262" y="264" width="297" height="243" isRemoveLineWhenBlank="true" forecolor="#FFFFFF" backcolor="#FFFFFF" uuid="9d9429ae-d2ee-4951-a0bc-9a53bcb182ea"/>
+				<sc:spiderChart xmlns:sc="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<sc:chartSettings isShowLegend="false" renderType="image">
+						<chartTitle>
+							<font fontName="Calibri" size="5.0"/>
+						</chartTitle>
+						<chartSubtitle>
+							<font fontName="Calibri" size="4.0"/>
+						</chartSubtitle>
+						<chartLegend>
+							<font fontName="Calibri" size="8.0"/>
+						</chartLegend>
+					</sc:chartSettings>
+					<sc:spiderDataset>
+						<dataset>
+							<datasetRun subDataset="Dataset1" uuid="072a8930-f8a8-4f6e-92fe-d7d630c24b21">
+								<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{spidercharts})]]></dataSourceExpression>
+							</datasetRun>
+						</dataset>
+						<categorySeries>
+							<seriesExpression><![CDATA[$F{category}]]></seriesExpression>
+							<categoryExpression><![CDATA[$F{serie}]]></categoryExpression>
+							<valueExpression><![CDATA[$F{value}]]></valueExpression>
+							<labelExpression><![CDATA[$F{category}]]></labelExpression>
+						</categorySeries>
+					</sc:spiderDataset>
+					<sc:spiderPlot isWebFilled="true"/>
+				</sc:spiderChart>
+			</componentElement>
+			<line>
+				<reportElement x="33" y="240" width="516" height="1" uuid="23efd830-8809-4ce4-8cd5-cdf3a27bce98"/>
+			</line>
+			<line>
+				<reportElement x="33" y="30" width="516" height="1" uuid="ad19c001-2b3c-4d98-b743-8e90e8c1121e"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="33" y="110" width="516" height="1" uuid="2a4bf2c3-8283-4382-8672-6d6e0be025fb"/>
+			</line>
+			<line>
+				<reportElement x="33" y="542" width="516" height="1" uuid="069c5241-18fe-43be-a328-3c86b9aac242"/>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="50" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="c43235b4-61d3-4865-86c4-cf205fa5072f"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="70" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="e5c91c18-1f21-446a-9852-4b4212e959b6"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="90" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="a2cc3a72-0e69-42d6-afcb-8958435d1f82"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="130" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="d8483443-2a3f-46f6-837e-1846d05d884f"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="150" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="4797efe3-da6e-44cf-ae4a-fb2e2c55a2a4"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="170" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="a3985edc-0150-4d59-bfef-f90c1338e1b6"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="190" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="e2ed1e2a-e5c0-4c94-a7ba-7cfd601450ec"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="260" width="516" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="72a5259e-be03-4ec5-9722-6cad2ef507c8"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="305" width="229" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="8b7840e9-e334-4dc7-8af4-ee38f459cf42"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="350" width="229" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="4f839dc9-6aaf-4535-8bc5-97b51afd7013"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="395" width="229" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="d0078da5-6028-4b19-85d1-14e5e51f42fe"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="440" width="229" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="066eb52c-0be9-44b0-8bbc-f0ac9d088107"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="33" y="459" width="229" height="1" forecolor="#F0EDED" backcolor="#F0EDED" uuid="d958cd0c-e9a8-44ae-95fa-1db038522794"/>
+				<graphicElement>
+					<pen lineColor="#F0EDED"/>
+				</graphicElement>
+			</line>
+			<image>
+				<reportElement x="360" y="544" width="139" height="75" uuid="75b3ff8a-d5be-49c5-8809-9f5db0fc1315">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{firma1}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="66" y="544" width="160" height="75" uuid="34844281-7783-4d48-aba2-2a89a395515e">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{firma2}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="13" y="233" width="15" height="15" uuid="cfe91870-6663-4f1d-84cc-52cd196ecab5">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{bean}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="13" y="103" width="15" height="15" uuid="b8908130-7287-48cc-9c74-b6cc1a8753bd">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{bean}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="13" y="23" width="15" height="15" uuid="83cbc82a-4819-4e35-ad7c-5a351fb4bc71">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{bean}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="13" y="535" width="15" height="15" uuid="0fdf15ec-34f1-4281-ab71-3d94233b75f3">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{bean}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="23" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="574" height="22" forecolor="#8CC63F" backcolor="#8CC63F" uuid="d417feaf-9dd2-40e1-b197-c21dc64508d1"/>
+				<staticText>
+					<reportElement x="86" y="4" width="387" height="15" forecolor="#FFFFFF" uuid="8d8bda30-80dc-4b9d-af4f-57bf57f55228">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Arial" size="9" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Universidad Surcolombiana  Teléfono : 875-4753 Ext: 1131    Email: cesurcafe@usco.edu.co]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</pageFooter>
+</jasperReport>
